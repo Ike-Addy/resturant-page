@@ -19,4 +19,13 @@ const createContactPage = () => {
     addressInput.placeholder = 'Enter your address';
     form.appendChild(addressInput);
 
+    const phoneInput = document.createElement('input');
+    phoneInput.type = 'tel';
+    phoneInput.placeholder = 'Enter your phone number';
+    form.appendChild(phoneInput);
+
+    pageContent.appendChild(form);
+    content.appendChild(pageContent);
 }
+
+export default createContactPage;
