@@ -13,6 +13,10 @@ const createContactPage = () => {
     nameInput.type = 'text';
     nameInput.placeholder = 'Enter your name';
     form.appendChild(nameInput);
-    
+
+    const addressInput = document.createElement('input');
+    addressInput.type = 'text';
+    addressInput.placeholder = 'Enter your address';
+    form.appendChild(addressInput);
 
 }
