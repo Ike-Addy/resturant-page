@@ -6,7 +6,7 @@ const createContactPage = () => {
     pageContent.classList.add('page-content');
 
     // Create and append form
-    const form = document.createElement('input');
+    const form = document.createElement('form');
     form.classList.add('contact-form');
 
     const nameInput = document.createElement('input');
